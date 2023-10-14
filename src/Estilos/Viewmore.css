@@ -1,0 +1,97 @@
+.rick-viewmore-container-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.rick-viewmore-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: #f0f0f0;
+        width: 30rem;
+        height: 15rem;
+        padding: 1rem;
+      }
+      
+      .rick-image-viewmore {
+        width: 200px;
+        margin-top: 1rem;
+        border: solid 3px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        margin-right: 3.5rem; /* Agrega un poco de espacio inferior para separar la imagen del contenido */
+      }
+      
+      .rick-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinea el contenido a la izquierda */
+      }
+      
+      .rick-info span {
+        margin-bottom: 0.5rem; /* Agrega un poco de espacio entre cada span */
+      }
+
+      /* Para el círculo verde */
+.green-circle {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Para el círculo rojo */
+.red-circle {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Para el círculo gris */
+.grey-circle {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+      
+      h1 {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin-bottom: 1rem; /* Agrega un poco de espacio inferior */
+      }
+      
+      button {
+        background-color: rgb(47, 125, 141);
+      }
+
+      .main-name-wrapper{
+        color: rgb(255, 247, 5);
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight:500;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .rick-viewmore-container {
+          width: 20rem;
+          font-size: 15px;
+      }
+      .rick-image-viewmore {
+        width: 120px;
+    }
+    }

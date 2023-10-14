@@ -1,0 +1,19 @@
+.profile-wrapper-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+}
+
+@media screen and (max-width: 860px) {
+        .profile-wrapper-container {
+                display: flex;
+                flex-direction: column;
+      }
+      .rick-container{
+        margin-bottom: 3.5rem;
+    }
+    .seemore-button{
+        margin-top: 2rem;
+    }
+    }

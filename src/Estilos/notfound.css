@@ -1,0 +1,17 @@
+/* NotFound.css */
+
+/* Estilos para el contenedor principal */
+
+      
+      /* Estilos para el título */
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 20px;
+      }
+      
+      /* Estilos para el mensaje */
+      p {
+        font-size: 1.5rem;
+        color: #888;
+      }
+      
